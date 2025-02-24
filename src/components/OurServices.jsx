@@ -2,7 +2,7 @@ import React from "react";
 
 const OurServices = (props) => {
   return (
-    <li className="p-6 shadow-xl rounded-xl ring-1 ring-black/5 shadow-black/10 bg-blue-950">
+    <li className="p-6 shadow-xl rounded-xl ring-1 ring-black/5 shadow-black/10 bg-blue-950 mt-39">
       <h3 className="font-bold tracking-tight text-violet-600 text-3xl">
         {props.tittle}
       </h3>

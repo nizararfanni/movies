@@ -15,7 +15,7 @@ const GetMovies = () => {
   }, []);
 
   return (
-     <div className="min-h-screen w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 bg-gray-200 dark:bg-gray-800 p-5">
+     <div className="min-h-screen w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 bg-gray-200 dark:bg-gray-800 pt-19">
       {moviesPopular.map((movie) => (
         <article
           key={movie.id}
