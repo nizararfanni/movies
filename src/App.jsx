@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Service from "./pages/Service";
 import Contact from "./components/Contact";
+import AddNewMovie from "./components/Forms/AddNewMovie";
 
 function App() {
   // location navbar biar di path login/register dia tak muncul
@@ -32,6 +33,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/OurServices" element={<Service />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/add" element={<AddNewMovie />} />
        
         <Route path="*" element={<NotFound />} />
       </Routes>

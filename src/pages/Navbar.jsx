@@ -50,7 +50,7 @@ const Navbar = () => {
       <nav className="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-4 min-h-[64px]">
         <div className="flex items-center justify-between ">
           <button>
-            <h2 className="cursor-pointer font-bold text-2xl text-blue-500 hover:text-blue-700">
+            <h2 className="cursor-pointer font-bold text-2xl text-blue-500 hover:text-blue-700 me-3">
               Kheneddy
             </h2>
           </button>
@@ -104,8 +104,8 @@ const Navbar = () => {
 
         {/* Hamburger menu */}
         {isOpen && (
-          <div className="lg:hidden mt-2">
-            <ul className="space-y-2 text-base font-bold text-black/60 dark:text-white">
+          <div className="lg:hidden mt-2 ">
+            <ul className="space-y-2 text-base font-bold text-black/60 dark:text-white ">
               <li className="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
                 <a href="#">Home</a>
               </li>
@@ -140,8 +140,7 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-      {/* Hasil Pencarian - Dipindahkan keluar dari navbar */}
-   {/* Hasil Pencarian - Tetap dalam wrapper utama */}
+      {/* {/* Hasil Pencarian -  */}
   {movies.length > 0 && (
     <div className="absolute top-full left-0 w-full bg-gray-200 dark:bg-gray-800 p-5 cursor-pointer max-h-[calc(100vh-64px)] overflow-y-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
